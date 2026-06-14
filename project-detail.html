@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./dist/output.css">
+  <title>Detail Project</title>
+</head>
+
+<body class="bg-slate-100 text-dark">
+
+  <!-- Header -->
+  <header class="bg-white/80 backdrop-blur-md shadow fixed top-0 left-0 w-full z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="index.html"
+        class="font-semibold text-primary hover:text-teal-700 transition">
+        ← Kembali
+      </a>
+
+      <h1 class="font-bold text-lg">
+        Detail Project
+      </h1>
+    </div>
+  </header>
+
+  <main class="pt-28 pb-20">
+
+    <div class="container mx-auto px-4 max-w-6xl">
+
+      <!-- SLIDER -->
+      <div class="bg-white rounded-3xl shadow-lg p-5 mb-8">
+
+        <div class="relative">
+
+          <div class="bg-slate-100 rounded-2xl p-4">
+
+            <img
+              id="mainImage"
+              alt="Dokumentasi Project"
+              class="w-full max-h-[700px] object-contain mx-auto rounded-xl transition-all duration-300">
+
+          </div>
+
+          <button
+            id="prevBtn"
+            class="absolute left-3 top-1/2 -translate-y-1/2 bg-white shadow-lg w-12 h-12 rounded-full hover:scale-110 transition">
+            ❮
+          </button>
+
+          <button
+            id="nextBtn"
+            class="absolute right-3 top-1/2 -translate-y-1/2 bg-white shadow-lg w-12 h-12 rounded-full hover:scale-110 transition">
+            ❯
+          </button>
+
+        </div>
+
+        <!-- Thumbnail -->
+        <div
+          id="thumbnailContainer"
+          class="flex gap-3 overflow-x-auto mt-4 pb-2">
+        </div>
+
+      </div>
+
+      <!-- Judul -->
+      <div class="mb-8">
+
+        <h1
+          id="projectTitle"
+          class="text-4xl font-bold mb-3">
+        </h1>
+
+        <div
+          id="projectTags"
+          class="flex flex-wrap gap-2">
+        </div>
+
+      </div>
+
+      <!-- Content -->
+      <div class="grid lg:grid-cols-3 gap-6">
+
+        <!-- Kiri -->
+        <div class="lg:col-span-2 space-y-6">
+
+          <!-- Deskripsi -->
+          <div class="bg-white rounded-3xl shadow p-6">
+
+            <h2 class="text-2xl font-bold mb-4">
+              Tentang Project
+            </h2>
+
+            <p
+              id="projectDesc"
+              class="text-secondary leading-8 text-justify">
+            </p>
+
+          </div>
+
+          <!-- Fitur -->
+          <div class="bg-white rounded-3xl shadow p-6">
+
+            <h2 class="text-2xl font-bold mb-4">
+              Fitur Utama
+            </h2>
+
+            <ul
+              id="projectFeatures"
+              class="space-y-3">
+            </ul>
+
+          </div>
+
+          <!-- Teknologi -->
+          <div class="bg-white rounded-3xl shadow p-6">
+
+            <h2 class="text-2xl font-bold mb-4">
+              Teknologi Digunakan
+            </h2>
+
+            <div
+              id="projectTools"
+              class="flex flex-wrap gap-3">
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Kanan -->
+        <div class="space-y-6">
+
+          <!-- Detail -->
+          <div class="bg-white rounded-3xl shadow p-6">
+
+            <h2 class="text-xl font-bold mb-4">
+              Detail Project
+            </h2>
+
+            <div class="space-y-4">
+
+              <div>
+                <p class="text-secondary text-sm">
+                  Tanggal
+                </p>
+
+                <p
+                  id="projectDate"
+                  class="font-semibold">
+                </p>
+              </div>
+
+              <div>
+                <p class="text-secondary text-sm">
+                  Kategori
+                </p>
+
+                <p
+                  id="projectCategory"
+                  class="font-semibold">
+                </p>
+              </div>
+
+              <div>
+                <p class="text-secondary text-sm">
+                  Status
+                </p>
+
+                <p
+                  id="projectStatus"
+                  class="font-semibold">
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Aksi -->
+          <div class="bg-white rounded-3xl shadow p-6">
+
+            <h2 class="text-xl font-bold mb-4">
+              Tautan
+            </h2>
+
+            <div class="flex flex-col gap-3">
+
+              <a
+                id="githubLink"
+                target="_blank"
+                class="text-center py-3 rounded-xl border border-slate-300 hover:bg-slate-100">
+                Github
+              </a>
+
+              <a
+                id="demoLink"
+                target="_blank"
+                class="text-center py-3 rounded-xl border border-slate-300 hover:bg-slate-100">
+                Demo
+              </a>
+
+              <a
+                id="reportLink"
+                target="_blank"
+                class="text-center py-3 rounded-xl bg-primary text-white hover:opacity-90">
+                Download Laporan
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <script src="data/projects.js"></script>
+  <script src="dist/js/detail.js"></script>
+
+</body>
+</html>
