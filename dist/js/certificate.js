@@ -17,38 +17,39 @@ document.addEventListener("DOMContentLoaded", () => {
     const end = start + itemsPerPage;
 
     const pageItems = certificates.slice(start, end);
+    
 
-    pageItems.forEach((file) => {
-      const isPdf = file.toLowerCase().includes(".pdf");
+    pageItems.forEach((img) => {
+      const card = document.createElement("a");
+      card.href = img;
+      card.target = "_blank";
 
-      const el = document.createElement("a");
-      el.href = file;
-      el.target = "_blank";
+      card.className =
+        "block bg-white shadow-md overflow-hidden border border-slate-200 hover:shadow-lg transition";
 
-      // 🔥 NO CARD STYLE, FULL FLEX AUTO SIZE
-      el.className = "block w-full h-auto overflow-hidden";
-
-      el.innerHTML = `
-        ${
-          isPdf
-            ? `
-              <iframe
-                src="${file}#view=FitH"
-                class="w-full border-0 block"
-                style="height: 500px;"
-              ></iframe>
-            `
-            : `
-              <img
-                src="${file}"
-                class="w-full h-auto block"
-                alt="sertifikat"
-              />
-            `
-        }
+      card.innerHTML = `
+        <div style="
+          width: 100%;
+          aspect-ratio: 4 / 3;
+          background: #f1f5f9;
+          overflow: hidden;
+        ">
+          <img
+            src="${img}"
+            style="
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              display: block;
+              transition: transform 0.5s;
+            "
+            onmouseover="this.style.transform='scale(1.05)'"
+            onmouseout="this.style.transform='scale(1)'"
+          />
+        </div>
       `;
 
-      container.appendChild(el);
+      container.appendChild(card);
     });
 
     prevBtn.disabled = currentPage === 1;
