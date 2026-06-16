@@ -33,7 +33,6 @@ const projects = [
 
     tools: [
       "Laravel",
-      "Filament",
       "MySQL",
       "Flask",
       "Sentence Transformers",
@@ -55,7 +54,7 @@ const projects = [
       "https://demo.com",
 
     report:
-      "assets/laporan/proyek1.pdf"
+      "assets/laporan/maw-buket.pdf"
   },
   {
   id: 2,
@@ -103,7 +102,7 @@ const projects = [
 
   demo: "#",
 
-  report: "assets/laporan/dragon-fruit-grading-system.pdf"
+  report: "assets/laporan/sistem-grading-buah-naga.pdf"
 },
 
 {
@@ -265,7 +264,7 @@ const projects = [
 
   demo: "#",
 
-  report: "assets/laporan/visimala.pdf"
+  report: "assets/laporan/visimala-desktop.pdf"
 }
   
 ];
