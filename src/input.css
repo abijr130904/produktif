@@ -36,7 +36,7 @@ body{
 .fade-in {
   opacity: 0;
   transform: translateY(40px);
-  transition: all 0.8s ease;
+  transition: all 1.5s ease;
 }
 
 .fade-in.show {
@@ -47,7 +47,7 @@ body{
 .fade-left {
   opacity: 0;
   transform: translateX(-50px);
-  transition: all 0.8s ease;
+  transition: all 1.5s ease;
 }
 
 .fade-left.show {
@@ -58,7 +58,7 @@ body{
 .fade-right {
   opacity: 0;
   transform: translateX(50px);
-  transition: all 0.8s ease;
+  transition: all 1.5s ease;
 }
 
 .fade-right.show {
@@ -69,7 +69,7 @@ body{
 .zoom-in {
   opacity: 0;
   transform: scale(0.9);
-  transition: all 0.8s ease;
+  transition: all 1.5s ease;
 }
 
 .zoom-in.show {
