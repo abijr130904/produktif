@@ -1,0 +1,16 @@
+const certificates = [
+  "/assets/sertifikat/1.pdf",
+  "/assets/sertifikat/2.pdf",
+  "/assets/sertifikat/3.pdf",
+  "/assets/sertifikat/4.pdf",
+  "/assets/sertifikat/5.pdf",
+  "/assets/sertifikat/6.pdf",
+  "/assets/sertifikat/7.pdf",
+  "/assets/sertifikat/8.pdf",
+  "/assets/sertifikat/9.pdf",
+  "/assets/sertifikat/10.pdf",
+  "/assets/sertifikat/11.pdf",
+  "/assets/sertifikat/12.pdf",
+  "/assets/sertifikat/13.pdf",
+  "/assets/sertifikat/14.pdf",
+];

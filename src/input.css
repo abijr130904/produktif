@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body{
-    font-family: 'Inter',sans-serif;
+    font-family: 'Inter', sans-serif;
 }
 
 .navbar-fixed{
@@ -45,7 +45,7 @@ body{
 }
 
 .fade-left {
-  opacity: 1;
+  opacity: 0;
   transform: translateX(-50px);
   transition: all 0.8s ease;
 }
@@ -67,7 +67,7 @@ body{
 }
 
 .zoom-in {
-  opacity: 1;
+  opacity: 0;
   transform: scale(0.9);
   transition: all 0.8s ease;
 }
@@ -75,4 +75,43 @@ body{
 .zoom-in.show {
   opacity: 1;
   transform: scale(1);
-} 
+}
+
+/* ========================= */
+/* TECHNOLOGY SECTION */
+/* ========================= */
+
+@layer components {
+
+  .tech-card {
+    @apply bg-white rounded-2xl p-5
+    flex flex-col items-center justify-center gap-3
+    border border-slate-200
+    shadow-sm
+    hover:-translate-y-2
+    hover:border-primary
+    hover:shadow-xl
+    transition-all duration-300;
+  }
+
+  .tech-icon {
+    @apply w-12 h-12 transition-transform duration-300;
+  }
+
+  .tech-card:hover .tech-icon {
+    transform: scale(1.1);
+  }
+
+  .tech-title {
+    @apply text-sm font-semibold text-dark text-center
+    transition-colors duration-300;
+  }
+
+  .tech-card:hover .tech-title {
+    @apply text-primary;
+  }
+
+  .tech-category {
+    @apply text-2xl font-bold text-dark text-center mb-8;
+  }
+}

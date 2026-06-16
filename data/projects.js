@@ -42,10 +42,10 @@ const projects = [
     ],
 
     images: [
-      "dist/img/project/maw-buket/1.png",
-      "dist/img/project/maw-buket/2.jpg",
-      "dist/img/project/maw-buket/3.png",
-      "dist/img/project/maw-buket/4.png",
+      "assets/proyek/maw-buket/1.png",
+      "assets/proyek/maw-buket/2.jpg",
+      "assets/proyek/maw-buket/3.png",
+      "assets/proyek/maw-buket/4.png",
     ],
 
     github:
@@ -55,7 +55,7 @@ const projects = [
       "https://demo.com",
 
     report:
-      "assets/laporan/project1.pdf"
+      "assets/laporan/proyek1.pdf"
   },
   {
   id: 2,
@@ -95,8 +95,8 @@ const projects = [
   ],
 
   images: [
-    "dist/img/project/dragon-fruit-grading/1.jpg",
-    "dist/img/project/dragon-fruit-grading/2.jpg",
+    "assets/proyek/dragon-fruit-grading/1.jpg",
+    "assets/proyek/dragon-fruit-grading/2.jpg",
   ],
 
   github: "#",
@@ -148,17 +148,17 @@ const projects = [
   ],
 
   images: [
-    "dist/img/project/media-explant/1.jpg",
-    "dist/img/project/media-explant/2.jpg",
-    "dist/img/project/media-explant/3.jpg",
-    "dist/img/project/media-explant/4.jpg",
-    "dist/img/project/media-explant/5.jpg",
-    "dist/img/project/media-explant/6.jpg",
-    "dist/img/project/media-explant/7.jpg",
-    "dist/img/project/media-explant/8.jpg",
-    "dist/img/project/media-explant/9.jpg",
-    "dist/img/project/media-explant/10.jpg",
-    "dist/img/project/media-explant/11.jpg",
+    "assets/proyek/media-explant/1.jpg",
+    "assets/proyek/media-explant/2.jpg",
+    "assets/proyek/media-explant/3.jpg",
+    "assets/proyek/media-explant/4.jpg",
+    "assets/proyek/media-explant/5.jpg",
+    "assets/proyek/media-explant/6.jpg",
+    "assets/proyek/media-explant/7.jpg",
+    "assets/proyek/media-explant/8.jpg",
+    "assets/proyek/media-explant/9.jpg",
+    "assets/proyek/media-explant/10.jpg",
+    "assets/proyek/media-explant/11.jpg",
   ],
 
   github: "https://github.com/DevMossTeam/MediaExplant-Mobile.git",
@@ -205,11 +205,11 @@ const projects = [
   ],
 
   images: [
-    "dist/img/project/kabare/1.jpg",
-    "dist/img/project/kabare/2.jpg",
-    "dist/img/project/kabare/3.jpg",
-    "dist/img/project/kabare/4.jpg",
-    "dist/img/project/kabare/5.jpg",
+    "assets/proyek/kabare/1.jpg",
+    "assets/proyek/kabare/2.jpg",
+    "assets/proyek/kabare/3.jpg",
+    "assets/proyek/kabare/4.jpg",
+    "assets/proyek/kabare/5.jpg",
   ],
 
   github: "https://github.com/abijr130904/kabarEMobile.git",
@@ -221,7 +221,7 @@ const projects = [
 {
   id: 5,
 
-  title: "Visimala Laundry Management System",
+  title: "Visimala",
 
   description:
     "Aplikasi desktop untuk mengelola operasional laundry secara digital, mulai dari autentikasi pengguna, manajemen produk, hingga monitoring data melalui dashboard. Sistem dilengkapi autentikasi berbasis RFID untuk meningkatkan keamanan dan efisiensi penggunaan.",
@@ -255,10 +255,10 @@ const projects = [
   ],
 
   images: [
-    "dist/img/project/visimala/1.png",
-    "dist/img/project/visimala/2.png",
-    "dist/img/project/visimala/3.png",
-    "dist/img/project/visimala/4.png",
+    "assets/proyek/visimala/1.png",
+    "assets/proyek/visimala/2.png",
+    "assets/proyek/visimala/3.png",
+    "assets/proyek/visimala/4.png",
   ],
 
   github: "https://github.com/DevMossTeam/VISIMALA_V2.1.git",
