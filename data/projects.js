@@ -162,7 +162,7 @@ const projects = [
 
   github: "https://github.com/DevMossTeam/MediaExplant-Mobile.git",
 
-  demo: "#",
+  demo: "https://drive.google.com/drive/folders/100nyfV94QTDzOG0bzFr5GHAvPlV_3YV_",
 
   report: "assets/laporan/media-explant.pdf"
 },
