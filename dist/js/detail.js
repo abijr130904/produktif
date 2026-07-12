@@ -33,6 +33,29 @@ document.getElementById("projectStatus").textContent =
   project.status || "-";
 
 // =====================
+// ROLE
+// =====================
+const roleElement = document.getElementById("projectRole");
+if (roleElement) {
+  roleElement.textContent = project.role || "-";
+}
+
+// =====================
+// KONTRIBUSI
+// =====================
+const contributionsContainer = document.getElementById("projectContributions");
+if (contributionsContainer && project.contributions && project.contributions.length > 0) {
+  project.contributions.forEach(contribution => {
+    contributionsContainer.innerHTML += `
+      <li class="flex items-start gap-2">
+        <span class="text-primary font-bold">▸</span>
+        <span>${contribution}</span>
+      </li>
+    `;
+  });
+}
+
+// =====================
 // TAGS
 // =====================
 const tagContainer = document.getElementById("projectTags");
