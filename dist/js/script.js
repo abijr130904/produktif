@@ -1,6 +1,3 @@
-
-
-
 // navbar fixed
 window.onscroll = function () {
     const header = document.querySelector('header');
