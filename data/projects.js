@@ -35,7 +35,7 @@ const projects = [
       "assets/proyek/maw-buket/4.png",
     ],
     github: "https://github.com/DevMossTeam/Maw-Buket.git",
-    demo: "https://demo.com",
+    demo: "https://pameran-jti.polije.ac.id/product/653/maw-bouquet",
     report: "assets/laporan/maw-buket.pdf"
   },
   {
